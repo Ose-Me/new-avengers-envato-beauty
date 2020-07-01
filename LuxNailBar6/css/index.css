@@ -13,6 +13,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar {
+  background-color: #6c2966;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
 .top-link {
   margin: 0 1rem;
+}
+
+.top-container {
+  height: calc(100vh - 56px);
+  padding-top: 56px;
+}
+
+.intro {
+  background-image: url("../images/isi-parente-gJ3hKjX92K8-unsplash.jpg");
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: calc(100vh - 56px);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
